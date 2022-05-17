@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&family=Oswald&display=swap');
+
+* {
+   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a{
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(71, 71, 71);
+  text-decoration: none;
+}
+
+li, a {
+    cursor: pointer;
+}
+
+body {
+  background-color: rgba(227, 227, 227);
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: white;
+  box-shadow: 0 0 25px 0 #999;
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding: 8px 28px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: white;
+}
+
+.logo {
+  cursor: pointer;
+  height: 88px;
+  width: 195px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding: 8px 28px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: white;
+}
+
+button:hover {
+  color:  rgba(0, 0, 0);
+  background-color: white;
+}
+
+/******************** header Ende*********************/
+
+/******************** HOMEEEE*********************/
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+
+
+
+
+#img {
+  display: block;
+  margin: auto;
+    width: 187px;
+    height: 265px;
+}
+
+.box {
+  margin: 5%;
+  height: 3000px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 25px 0 #999;
+}
+
+
+ #header1 {
+   padding-top: 20px;
+   font-size: 55px;
+   margin-bottom: 0px;
+ }
+
+ #header2 {
+   margin-top: -15px;
+   font-size: 20px;
+   color: gray;
+   margin-bottom: 70px;
+ }
+
+ #header3 {
+   font-size: 40px;
+   text-align: left;
+ }
+
+ #introduction {
+   font-family: "Arimo", sans-serif;
+   font-weight: 400;
+   font-size: 25px;
+
+ }
+
+ #textbox {
+   padding-left: 10%;
+   padding-right: 10%;
+   margin-top: 50px;
+   border-left: 20px gray solid;
+   border-right: 20px gray solid;
+ }
+
+
+
+ /******************** HOMEEEE ENDE*********************/
+
+ /******************** KONTAKT*********************/
+
+ form {
+   font-family: "Arimo";
+ }
+
+ fieldset {
+   padding-left: 20%;
+   padding-right: 20%;
+ }
